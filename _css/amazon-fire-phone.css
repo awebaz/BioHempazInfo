@@ -1,17 +1,139 @@
 /* CSS Document */
 
-/* Amazon	Fire Phone: 360 640	2
-/* screen-pixel-density = (360 x 2) = 720 min-width x (640 x 2) = 1280 max-width = 921,600 pixels */
+/* Amazon	Fire Phone: 360 640	2 */
+/* Screen-pixel-density = (360 x 2) = 720 min-width x (640 x 2) = 1280 max-width = 921,600 pixels */
+
+/* Minimum Device Pixel Ratio: Generic */
+@media screen
+	and (min-device-width = 360)
+	and (max-device-width = 640)
+	and (orientation: portrait)
+	and (min-device-pixel-ratio:2) {
+	
+/* Set the background photo for the device */
+html {
+	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-360-x-640-px-96-dpi.svg) no-repeat center center fixed;
+	background-size: cover; 
+	}
+		
+/* Change the attributes of the gridContainer class */	
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.6262%;
+	padding-left: 0.1869%;
+	padding-right: 0.1869%;
+ }
+}
 
 @media screen
-and (min-device-width = 360)
-and (max-device-width = 640)
-and (min-device-pixel-ratio:2) {
-/* Grid container class */	
-	.gridContainer {
-		width: 100%;
-		padding-left: 0.4891%;
-		padding-right: 0.4891%;
-		margin: 0;
+	and (min-device-width = 360)
+	and (max-device-width = 640)
+	and (orientation: landscape)
+	and (min-device-pixel-ratio:2) {
+	
+/* Set the background photo for the device */
+html {
+	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-640-x-360-px-96-dpi.svg) no-repeat center center fixed;
+	background-size: cover; 
 	}
+		
+/* Change the attributes of the gridContainer class */	
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.6262%;
+	padding-left: 0.1869%;
+	padding-right: 0.1869%;
+ }
+}
+
+/* Minimum Device Pixel Ratio: Mozilla */
+@media screen
+	and (min-device-width = 360)
+	and (max-device-width = 640)
+	and (orientation: portrait)
+	and (-moz-min-device-pixel-ratio:2) {
+	
+/* Set the background photo for the device */
+html {
+	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-360-x-640-px-96-dpi.svg) no-repeat center center fixed;
+	background-size: cover; 
+	}
+		
+/* Change the attributes of the gridContainer class */	
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.6262%;
+	padding-left: 0.1869%;
+	padding-right: 0.1869%;
+ }
+}
+
+@media screen
+	and (min-device-width = 360)
+	and (max-device-width = 640)
+	and (orientation: landscape)
+	and (-moz-min-device-pixel-ratio:2) {
+	
+/* Set the background photo for the device */
+html {
+	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-640-x-360-px-96-dpi.svg) no-repeat center center fixed;
+	background-size: cover; 
+	}
+		
+/* Change the attributes of the gridContainer class */	
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.6262%;
+	padding-left: 0.1869%;
+	padding-right: 0.1869%;
+ }
+}
+
+/* Minimum Device Pixel Ratio: Webkit (Apple) */
+@media screen
+	and (min-device-width = 360)
+	and (max-device-width = 640)
+	and (orientation: portrait)
+	and (-webkit-min-device-pixel-ratio:2) {
+	
+/* Set the background photo for the device */
+html {
+	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-360-x-640-px-96-dpi.svg) no-repeat center center fixed;
+	background-size: cover; 
+	}
+		
+/* Change the attributes of the gridContainer class */	
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.6262%;
+	padding-left: 0.1869%;
+	padding-right: 0.1869%;
+ }
+}
+
+@media screen
+	and (min-device-width = 360)
+	and (max-device-width = 640)
+	and (orientation: landscape)
+	and (-webkit-min-device-pixel-ratio:2) {
+	
+/* Set the background photo for the device */
+html {
+	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-640-x-360-px-96-dpi.svg) no-repeat center center fixed;
+	background-size: cover; 
+	}
+		
+/* Change the attributes of the gridContainer class */	
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.6262%;
+	padding-left: 0.1869%;
+	padding-right: 0.1869%;
+ }
 }

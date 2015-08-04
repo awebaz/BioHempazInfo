@@ -547,9 +547,15 @@ span.underline-this {
 	
 /* Page Footer (.div) container IDs */
 	
-div#closure-section {
-		width: 100%;
+#closure-section {
+	color: #000;
+	clear: none;
+	float: left;
+	/* margin-left: 2.6785%; */
+	width: 100%;
+	display: block;
 	}
+}
 	
 /* Footer semantic container IDs */
 #copyright-section {
