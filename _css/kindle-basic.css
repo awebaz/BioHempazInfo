@@ -1,79 +1,92 @@
 /* CSS Document */
 
-/* Kindle 7" mini tablet: 800px to a max of 1280px viewport. For Enhanced Screens. Landscape orientation. Inherits all from start of (.css), feature phone, iphone retina, smartphone, and iPad mini tablets */
+/* Kindle 7" mini tablet: 800px to a max of 1280px viewport. For Enhanced Screens. Portrait orientation. Inherits all from start of (.css), feature phone, iphone retina, smartphone, and iPad mini tablets */
 
 @media screen 
   and (min-device-width: 800px) 
-  and (max-device-width: 1280px) 
-  and (-webkit-min-device-pixel-ratio: 1.5)
-	and (orientation: landscape) {
+  and (max-device-width: 1280px)
+	and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio:1.5) {
 		
-/* Grid container class */
-.gridContainer {
-	width: 89.0217%;
-	max-width: 1232px;
-	padding-left: 0.4891%;
-	padding-right: 0.4891%;
-	margin: auto;
-}
-
-#LayoutDiv1 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-
-div.introduction {
-	color: #000;
-	clear: both;
-	float: left;
-	margin-left: 1.0989%;
-	width: 100%;
-	display: block;
-}
-
-#article {
-	color: #000;
-	clear: none;
-	float: left;
-	margin-left: 1.0989%;
-	width: 100%;
-	display: block;
-}
-#interview {
-	color: #000;
-	clear: none;
-	float: left;
-	margin-left: 1.0989%;
-	width: 100%;
-	display: block;
-}
-#artwork {
-	color: #000;
-	clear: none;
-	float: left;
-	margin-left: 1.0989%;
-	width: 100%;
-	display: block;
-}
-
-#photoshot {
-	color: #000;
-	clear: none;
-	float: left;
-	margin-left: 1.0989%;
-	width: 100%;
-	display: block;
-}
-
-#closure-section {
-	color: #000;
-	clear: none;
-	float: left;
-	/* margin-left: 1.0989%; */
-	width: 100%;
-	display: block;
+/* Set the background photo for the device */
+html {
+	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-800-x-1280-px-96-dpi.svg) no-repeat center center fixed;
+	background-size: cover; 
 	}
+	
+/* Change the attributes of the gridContainer class */	
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.6262%;
+	padding-left: 0.1869%;
+	padding-right: 0.1869%;
+ }
+
+/* Set the wild card class of columns to the following attributes */
+	[class*="col-"] {
+    float: left;
+    padding: 5px;
+    border: 1px dashed red;
+	}
+
+/* 	Set the width of each of the twelve columns in the desktop where 100% / 12 = 8.3333333333%.
+		The columns will now each span according to their widths */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 24.99%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 49.99%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 74.99%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* Kindle 7" mini tablet: 800px to a max of 1280px viewport. For Enhanced Screens. Landscape orientation. Inherits all from start of (.css), feature phone, iphone retina, smartphone, and iPad mini tablets */
+@media only screen
+	and (min-device-width: 800px)
+	and (max-device-width: 1280px)
+	and (orientation: landscape)
+	and (-webkit-min-device-pixel-ratio:1.5) {
+
+/* Set the background photo for the device */
+html {
+	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-1280-x-800-px-96-dpi.svg) no-repeat center center fixed;
+	background-size: cover; 
+	}
+	
+/* Change the attributes of the gridContainer class */	
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.6262%;
+	padding-left: 0.1869%;
+	padding-right: 0.1869%;
+ }
+
+/* Set the wild card class of columns to the following attributes */
+	[class*="col-"] {
+    float: left;
+    padding: 5px;
+    border: 1px dashed red;
+	}
+
+/* 	Set the width of each of the twelve columns in the desktop where 100% / 12 = 8.3333333333%.
+		The columns will now each span according to their widths */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 24.99%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 49.99%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 74.99%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 }
