@@ -24,6 +24,12 @@ html {
 	padding-left: 0.1869%;
 	padding-right: 0.1869%;
  }
+
+/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
+		The columns will now all line up and collapse, one upon the other */ 
+[class*="col-"] {
+	width: 100%;
+	}
 }
 
 @media screen
@@ -46,6 +52,12 @@ html {
 	padding-left: 0.1869%;
 	padding-right: 0.1869%;
  }
+
+/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
+		The columns will now all line up and collapse, one upon the other */ 
+[class*="col-"] {
+	width: 100%;
+	}
 }
 
 /* Minimum Device Pixel Ratio: Mozilla */
@@ -69,6 +81,12 @@ html {
 	padding-left: 0.1869%;
 	padding-right: 0.1869%;
  }
+
+/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
+		The columns will now all line up and collapse, one upon the other */ 
+[class*="col-"] {
+	width: 100%;
+	}
 }
 
 @media screen
@@ -91,6 +109,12 @@ html {
 	padding-left: 0.1869%;
 	padding-right: 0.1869%;
  }
+
+/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
+		The columns will now all line up and collapse, one upon the other */ 
+[class*="col-"] {
+	width: 100%;
+	}
 }
 
 /* Minimum Device Pixel Ratio: Webkit (Apple) */
@@ -114,6 +138,12 @@ html {
 	padding-left: 0.1869%;
 	padding-right: 0.1869%;
  }
+
+/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
+		The columns will now all line up and collapse, one upon the other */ 
+[class*="col-"] {
+	width: 100%;
+	}
 }
 
 @media screen
@@ -136,4 +166,10 @@ html {
 	padding-left: 0.1869%;
 	padding-right: 0.1869%;
  }
+
+/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
+		The columns will now all line up and collapse, one upon the other */
+[class*="col-"] {
+	width: 100%;
+	}
 }

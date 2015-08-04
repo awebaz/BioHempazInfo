@@ -1,10 +1,26 @@
 /* CSS Document */
 
-/*body.defaultBackgroundImage {
-	background-image: url(../_images/_svg/Mt-Hood-Close-Up-CU-480-x-800-px-96-dpi.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	}*/
+/* iPad Mini tablet layout: 480px to 800px viewport. For Non-Retina Screens. Portrait orientation. Inherits all from start of (.css), feature phone, iphone retina, and smartphone */
+@media only screen
+	and (min-device-width: 480px)
+	and (max-device-width: 800px)
+	and (orientation: portrait)
+	and (-webkit-min-device-pixel-ratio:1) {
+
+/* Set the background photo for the device */
+html {
+	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-480-x-800-px-96-dpi.svg) no-repeat center center fixed;
+	background-size: cover; 
+	}
+	
+/* Change the attributes of the gridContainer class */	
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.6262%;
+	padding-left: 0.1869%;
+	padding-right: 0.1869%;
+ }
 
 /* Set the wild card class of columns to the following attributes */
 	[class*="col-"] {
@@ -27,161 +43,49 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-
-/* iPad Mini tablet layout: 480px to 800px viewport. For Non-Retina Screens. Portrait orientation. Inherits all from start of (.css), feature phone, iphone retina, and smartphone */
-
-@media only screen
-	and (min-device-width: 480px)
-	and (max-device-width: 800px)
-	and (-webkit-min-device-pixel-ratio: 1)
-	and (orientation: portrait) {
-		
-/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
-		The columns will now all line up and collapse, one upon the other */
-[class*="col-"] {
-	width: 100%;
-	}
-
-/* Grid container class */	
-.gridContainer {
-	width: 91.4836%;
-	padding-left: 0.7581%;
-	padding-right: 0.7581%;
-}
-
-div.introduction {
-	color: #000;
-	clear: both;
-	float: left;
-	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
-}
-
-#article {
-	color: #000;
-	clear: both;
-	float: left;
-	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
-}
-
-#interview {
-	color: #000;
-	clear: none;
-	float: left;
-	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
-}
-
-#artwork {
-	color: #000;
-	clear: none;
-	float: left;
-	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
-}
-
-#photoshot {
-	color: #000;
-	clear: none;
-	float: left;
-	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
-}
-
-#closure-section {
-	color: #000;
-	clear: none;
-	float: left;
-	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
-	}
 }
 
 /* iPad Mini tablet layout: 480px to 800px viewport. For Non-Retina Screens. Landscape orientation. Inherits all from start of (.css), feature phone, iphone retina, and smartphone */
-
-@media screen
+@media only screen
 	and (min-device-width: 480px)
 	and (max-device-width: 800px)
-	and (-webkit-min-device-pixel-ratio: 1)
-	and (orientation: landscape) {
-		
-/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
-		The columns will now all line up and collapse, one upon the other */
-[class*="col-"] {
-	width: 100%;
-	}
+	and (orientation: landscape)
+	and (-webkit-min-device-pixel-ratio:1) {
 
-/* Change the attributes of the gridContainer class */
+/* Set the background photo for the device */
+html {
+	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-800-x-480-px-96-dpi.svg) no-repeat center center fixed;
+	background-size: cover; 
+	}
+	
+/* Change the attributes of the gridContainer class */	
 .gridContainer {
-	width: 91.4836%;
-	padding-left: 0.7581%;
-	padding-right: 0.7581%;
-}
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.6262%;
+	padding-left: 0.1869%;
+	padding-right: 0.1869%;
+ }
 
-div.introduction {
-	color: #000;
-	clear: both;
-	float: left;
-	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
-}
-
-/* Figcaption Default semantic container attributes */
-figcaption {
-		/* margin-top: 13%; */
-		display: inline-block;
+/* Set the wild card class of columns to the following attributes */
+	[class*="col-"] {
+    float: left;
+    padding: 5px;
+    border: 1px dashed red;
 	}
 
-#article {
-	color: #000;
-	clear: both;
-	float: left;
-	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
-}
-
-#interview {
-	color: #000;
-	clear: none;
-	float: left;
-	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
-}
-
-#artwork {
-	color: #000;
-	clear: none;
-	float: left;
-	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
-}
-
-#photoshot {
-	color: #000;
-	clear: none;
-	float: left;
-	margin-left: 1.6574%;
-	width: 100%;
-	display: block;
-}
-
-#closure-section {
-	color: #000;
-	clear: none;
-	float: left;
-	/* margin-left: 1.6574%; */
-	width: 100%;
-	display: block;
-	}
+/* 	Set the width of each of the twelve columns in the desktop where 100% / 12 = 8.3333333333%.
+		The columns will now each span according to their widths */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 24.99%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 49.99%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 74.99%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 }

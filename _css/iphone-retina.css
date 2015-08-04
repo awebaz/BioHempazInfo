@@ -2,12 +2,12 @@
 
 /* iphone 320px to 480px. For Retina Screens. Portrait orientation. Inherits all from start of (.css) and feature phone */
 
-@media screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+@media screen
+	and (min-device-width: 320px)
+	and (max-device-width: 480px)
 	and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+	and (min-device-pixel-ratio:2) {
+		
 /* Set the background photo for the device */
 html {
 	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-320-x-480-px-96-dpi.svg) no-repeat center center fixed;
@@ -22,14 +22,20 @@ html {
 	padding-left: 0.1869%;
 	padding-right: 0.1869%;
  }
+ 
+/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
+		The columns will now all line up and collapse, one upon the other */ 
+[class*="col-"] {
+	width: 100%;
+	}
 }
 
-@media screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+@media screen
+	and (min-device-width: 320px)
+	and (max-device-width: 480px)
 	and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+	and (min-device-pixel-ratio:2) {
+		
 /* Set the background photo for the device */
 html {
 	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-480-x-320-px-96-dpi.svg) no-repeat center center fixed;
@@ -44,6 +50,13 @@ html {
 	padding-left: 0.1869%;
 	padding-right: 0.1869%;
  }
+ 
+/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
+		The columns will now all line up and collapse, one upon the other */ 
+[class*="col-"] {
+	width: 100%;
+	}
+}
 
 @media screen
 	and (min-width: 320px)
@@ -65,6 +78,12 @@ html {
 	padding-left: 0.1869%;
 	padding-right: 0.1869%;
  }
+ 
+/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
+		The columns will now all line up and collapse, one upon the other */ 
+[class*="col-"] {
+	width: 100%;
+	}
 }
 
 @media screen
@@ -87,14 +106,20 @@ html {
 	padding-left: 0.1869%;
 	padding-right: 0.1869%;
  }
+
+/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
+		The columns will now all line up and collapse, one upon the other */
+[class*="col-"] {
+	width: 100%;
+	}
 }
 
-@media screen
-	and (min-device-width: 320px)
-	and (max-device-width: 480px)
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
 	and (orientation: portrait)
-	and (min-device-pixel-ratio:2) {
-		
+  and (-webkit-min-device-pixel-ratio:2) {
+
 /* Set the background photo for the device */
 html {
 	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-320-x-480-px-96-dpi.svg) no-repeat center center fixed;
@@ -109,14 +134,20 @@ html {
 	padding-left: 0.1869%;
 	padding-right: 0.1869%;
  }
+
+/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
+		The columns will now all line up and collapse, one upon the other */ 
+[class*="col-"] {
+	width: 100%;
+	}
 }
 
-@media screen
-	and (min-device-width: 320px)
-	and (max-device-width: 480px)
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
 	and (orientation: landscape)
-	and (min-device-pixel-ratio:2) {
-		
+  and (-webkit-min-device-pixel-ratio:2) {
+
 /* Set the background photo for the device */
 html {
 	background: url(../_images/_svg/Mt-Hood-Close-Up-CU-480-x-320-px-96-dpi.svg) no-repeat center center fixed;
@@ -131,4 +162,10 @@ html {
 	padding-left: 0.1869%;
 	padding-right: 0.1869%;
  }
+
+/* 	For mobile phones: Set the width of each of the twelve columns in the desktop to 100%.
+		The columns will now all line up and collapse, one upon the other */ 
+[class*="col-"] {
+	width: 100%;
+	}
 }
