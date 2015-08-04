@@ -1,0 +1,287 @@
+/* CSS Document */
+
+/* Standard	Feature Phone: 240px 320px pixel-ratio: 1;
+		How to calculate screen-pixel-density:
+			[(240 min-width x 1 pixel-ratio) = 240px] x [(320 max-width x 1 pixel-ratio) = 320px] = 76,800 pixels */
+			
+/* For Non-Retina Screens. Portrait Orientation. Inherits all from start of (.css) */
+@media screen 
+  and (min-device-width: 240px) 
+  and (max-device-width: 320px)
+	and (orientation: portrait)
+  and (min-device-pixel-ratio: 1) {
+		
+/* Grid container class */
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88.626%;
+	padding-left: 1.1869%;
+	padding-right: 1.1869%;
+}
+
+div.introduction {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#article {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#interview {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#artwork {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#photoshot {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#closure-section {
+	color: #000;
+	clear: none;
+	float: left;
+	/* margin-left: 2.6785%; */
+	width: 100%;
+	display: block;
+	}
+}
+
+/* For Non-Retina Screens. Landscape Orientation. Inherits all from start of (.css) */
+
+@media screen 
+  and (min-device-width: 240px) 
+  and (max-device-width: 320px)
+	and (orientation: landscape)
+  and (min-device-pixel-ratio: 1) {
+
+/* Change the attributes of the gridContainer class */	
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88.626%;
+	padding-left: 1.1869%;
+	padding-right: 1.1869%;
+}
+
+div.introduction {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#article {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#interview {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#artwork {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#photoshot {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#closure-section {
+	color: #000;
+	clear: none;
+	float: left;
+	/* margin-left: 2.6785%; */
+	width: 100%;
+	display: block;
+	}
+}
+
+/* Apple Web-kit Media Queries for iPhone 3 */
+@media screen 
+  and (min-device-width: 240px) 
+  and (max-device-width: 320px)
+	and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+/* Grid container class */
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88.626%;
+	padding-left: 1.1869%;
+	padding-right: 1.1869%;
+}
+
+div.introduction {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#article {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#interview {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#artwork {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#photoshot {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#closure-section {
+	color: #000;
+	clear: none;
+	float: left;
+	/* margin-left: 2.6785%; */
+	width: 100%;
+	display: block;
+	}
+}
+
+@media screen 
+  and (min-device-width: 240px) 
+  and (max-device-width: 320px)
+	and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+/* Grid container class */
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88.626%;
+	padding-left: 1.1869%;
+	padding-right: 1.1869%;
+}
+
+div.introduction {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#article {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#interview {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#artwork {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#photoshot {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#closure-section {
+	color: #000;
+	clear: none;
+	float: left;
+	/* margin-left: 2.6785%; */
+	width: 100%;
+	display: block;
+	}
+}

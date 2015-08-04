@@ -1,0 +1,65 @@
+/* CSS Document */
+
+/*  Big Screen TV Layout: 1920 x 1080. For Hi-definition Television Screens. Inherits styles from: Mobile Layout, Tablet Layout, iPad 1, 2, 3, and 4, Kindle Fire 7", Kindle Fire HD 8.9", and 15" Desktop and 17" Desktop Layout */
+
+@media screen 
+  and (min-device-width: 1080px) 
+	and (max-device-width: 1920px)
+  and (min-resolution: 192dpi) { 
+
+/* Grid container class */	
+.gridContainer {
+	width: 89.0217%;
+	max-width: 1232px;
+	padding-left: 0.4891%;
+	padding-right: 0.4891%;
+	margin: auto;
+}
+
+div.introduction {
+	clear: both;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+}
+
+#article {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+}
+
+#interview {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+}
+#artwork {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+}
+
+#photoshot {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+}
+
+#closure-section {
+	clear: none;
+	float: left;
+	/* margin-left: 1.0989%; */
+	width: 100%;
+	display: block;
+	}
+}

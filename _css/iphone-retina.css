@@ -1,0 +1,234 @@
+/* CSS Document */
+
+/* iphone 320px to 480px. For Retina Screens. Portrait orientation. Inherits all from start of (.css) and feature phone */
+
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+	and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+/* Change the attributes of the gridContainer class */		
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88.626%;
+	padding-left: 1.1869%;
+	padding-right: 1.1869%;
+}
+
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+div.introduction {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#article {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#interview {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#artwork {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#photoshot {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#closure-section {
+	color: #000;
+	clear: none;
+	float: left;
+	/* margin-left: 2.6785%; */
+	width: 100%;
+	display: block;
+	}
+}
+
+@media screen
+	and (min-width: 320px)
+	and (max-width: 480px)
+	and (-moz-min-device-pixel-ratio:2) {
+/* Change the attributes of the gridContainer class */		
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88.626%;
+	padding-left: 1.1869%;
+	padding-right: 1.1869%;
+}
+
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+div.introduction {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#article {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#interview {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#artwork {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#photoshot {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#closure-section {
+	color: #000;
+	clear: none;
+	float: left;
+	/* margin-left: 2.6785%; */
+	width: 100%;
+	display: block;
+	}	
+}
+
+@media screen
+	and (min-device-width: 320px)
+	and (max-device-width: 480px)
+	and (min-device-pixel-ratio:2) {
+		
+/* Change the attributes of the gridContainer class */		
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88.626%;
+	padding-left: 1.1869%;
+	padding-right: 1.1869%;
+}
+
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+div.introduction {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#article {
+	color: #000;
+	clear: both;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#interview {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#artwork {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#photoshot {
+	color: #000;
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+#closure-section {
+	color: #000;
+	clear: none;
+	float: left;
+	/* margin-left: 2.6785%; */
+	width: 100%;
+	display: block;
+	}
+}

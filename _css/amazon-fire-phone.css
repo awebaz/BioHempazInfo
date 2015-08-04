@@ -1,0 +1,17 @@
+/* CSS Document */
+
+/* Amazon	Fire Phone: 360 640	2
+/* screen-pixel-density = (360 x 2) = 720 min-width x (640 x 2) = 1280 max-width = 921,600 pixels */
+
+@media screen
+and (min-device-width = 360)
+and (max-device-width = 640)
+and (min-device-pixel-ratio:2) {
+/* Grid container class */	
+	.gridContainer {
+		width: 100%;
+		padding-left: 0.4891%;
+		padding-right: 0.4891%;
+		margin: 0;
+	}
+}

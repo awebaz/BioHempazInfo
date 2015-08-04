@@ -1,0 +1,561 @@
+/* CSS Document */
+
+/* 	Convert all columns to 100% width to accomodate mobile users in a 'mobile first' environment.
+		The columns will now all line up, one below the other */
+[class*="col-"] {
+	width: 100%;
+	}
+	
+/* 	Set the width of each of the twelve columns in the desktop where 100% / 12 = 8.3333333333%.
+		The columns will now each span according to their widths
+		Note: Use a media query to set up the columns for screen widths exceeding 768px */
+@media only screen and (min-width: 768px) {
+	.col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 24.99%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 49.99%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 74.99%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/* Note: Simple fluid media requires removal of all media's height and width attributes from the HTML. For more info C=> http://www.alistapart.com/articles/fluid-images/ */
+
+/* Note: IE 6 does not support max-width for the image container. Therefore, default to simply the width attribute with a value of 100% for all .ie6 classes in the image tag */
+.ie6 img {
+	width:100%;
+	}
+
+/* Establishing the Default 'gridContainer' class attributes */
+.gridContainer {
+	/* font-size: 3vw; */
+	/* display: flex; */
+	/* display: grid; */
+	/* flex-flow: row wrap; */
+	/* grid-columns: 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333%; */
+	/* grid-rows: 25vh 25vh 25vh 25vh; */
+	/* margin: 95vh 95vw; */
+	/* width: 100%; */
+	margin-left: 0%;
+	margin-right: 0%;
+	width: 100vw;
+	height: 100vh;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+/* Manage the Html Tag */
+html {
+  font-family: "Lucida Sans", sans-serif;
+	font-size: 100%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	background: url(../_images/Mt-Hood-Close-Up-CU-200700-34028080-light-061015-original.svg) no-repeat center center fixed;
+	background-size: cover; 
+	/* background-size: 100% 100%; */
+	}
+	
+/* Manage the Body Tag */
+body {
+	font-family: sans-serif;
+	font-size: 13px;
+	line-height: 1.231;
+	color: #600;
+	margin: 0;
+	}
+
+/* Page Headings: h1 Default container attributes */
+h1 {
+	color: #000;
+	}
+
+/* Page Headings: h2 Default container attributes */
+h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 26px;
+	font-weight: 500;
+	font-variant: normal;
+	text-transform: none;
+	color: #000;
+	text-decoration: none;
+	height: auto;
+	width: auto;
+	float: left;
+	overflow: visible;
+	position: relative;
+	visibility: visible;
+	z-index: 5;
+	top: 0%;
+	left: 0%;
+	clip: rect(auto,auto,auto,auto);
+	}
+
+p.left-align-this {
+	text-align: left;
+	text-transform: none;
+	text-decoration: none;
+	}
+	
+/* Page Headings: h3 Default container attributes */
+h3 {
+	color: #000;
+	}
+
+/* h3 container classes */
+h3.align-right {
+		text-align: right;
+		text-decoration: underline;
+		margin: 0px 2px 0px 0px;
+	}
+
+/* Page Headings: h4 Default container attributes */
+h4 {
+	color: #000;
+	}
+	
+/* Page Headings: h5 Default container attributes */
+h5 {
+	color: #000;
+	}
+
+/* Page Headings: h6 Default container attributes */
+h6 {
+	color: #000;
+	}
+		
+/* Page Header Default semantic container attributes */
+
+header {
+	/* background: #ccc; */
+	border-radius: 7px;
+	/* order: 1; */
+	/* height: 11.11%; */
+	/* flex: 0 1 100%; */
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	}
+
+/* Page Header semantic container classes */
+.header-class {
+    /* background-color: #9933cc; */
+    /* color: #ffffff; */
+    /* padding: 15px; */
+}
+
+/* Page Header semantic container IDs
+=====================================*/
+
+#header-id {
+	/* margin: 0.04167%; */
+	/* padding: 0.1667%; */
+	}
+
+/* Note: Hiding the h1 tag */
+#homePageTxtHeader {
+	text-indent: -9000em;
+	position: absolute;
+	z-index: 5;
+	left: 0px;
+	top: 0px;
+	margin: 0px;
+	}
+	
+/* Note: Adding the Default background (.svg) 
+body.defaultBackgroundImage {
+	background-image: url(../_images/Mt-Hood-Close-Up-CU-200700-34028080-light-061015-original.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	}*/
+	
+/* Page Default semantic container attributes */
+page {
+	/* Have an attribute */
+	}
+
+/* Page semantic container classes 
+.page {
+	color: #000;
+	max-width: 1440px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	font: inherit;
+	max-width: 100%;
+	margin: 0px auto;
+	color: #666; */
+	}
+
+.page-intro-line {
+	color: #000;
+	text-align:center;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	}
+
+/* Main Default semantic container attributes */
+main {
+	/* background: transparent; */
+	border-radius: 7px;
+	margin: 0.04167%;
+	padding: 0.1667%;
+	/* order: 3; */
+	/* min-height: 225px; */
+	/* flex: 1; */
+	clear: both;
+	float: left;
+	margin-left: 0;
+	max-width: 100%;
+	display: block;
+	}
+	
+/* Main semantic IDs */
+#main {
+    max-width: 100%;
+    /* float: left; */
+}
+
+/* Main semantic container classes */
+.main {
+    max-width: 100%;
+    /* float: left; */
+}
+
+/* Nav Default semantic container attributes */
+nav {
+	/* background: #ccc; */
+	border-radius: 7px;
+	margin: 0.04167%;
+	padding: 0.1667%;
+	/* order: 2; */
+	/* flex: 0 1 240px; */
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	}
+	
+/* Nav semantic container classes 
+.menu {
+    width: 25%;
+    float: right;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}*/
+
+/* Nav semantic container IDs */
+
+ul#navigator {
+		text-align: right;
+		padding: 5px 5px 0px 0px;
+		line-height: 100%;
+	}
+	
+/* Section Default semantic container attributes */
+section {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	}
+	
+/* Section semantic container IDs */
+#section {
+	/* some attribute */
+	}
+	
+#section-two {
+	text-align:right;
+	}
+	
+#section-three {
+	/* some attribute */
+	}
+	
+#section-four {
+	/* some attribute */
+	}
+
+#section-five {
+	/* some attribute */
+	}
+	
+#section-six {
+		width: 100%;
+	}
+	
+#section-seven {
+	/* some attribute */
+	}
+	
+#section-eight {
+	/* some attribute */
+	}
+	
+#section-nine {
+	/* some attribute */
+	}
+	
+#section-ten {
+	/* some attribute */
+	}
+	
+#section-eleven {
+	/* some attribute */
+	}
+	
+#section-twelve {
+	/* some attribute */
+	}
+	
+/* Section semantic container classes */
+.section {
+	/* some attribute */
+	}
+
+/* Aside Default semantic container attributes */
+aside {
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	/* background: #ccc; */
+	border-radius: 7px;
+	margin: 0.04167%;
+	padding: 0.1667%;
+	/* order: 4; */
+	/* flex: 0 1 240px; */
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	}
+	
+/* Aside semantic container classes */
+aside.location {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-variant: normal;
+	font-size: 24px;
+	font-style: oblique;
+	line-height: 26px;
+	font-weight: 500;
+	color: #600;
+	float: right;
+	width: auto;
+	height: auto;
+	top: 0%;
+	right: 0%;
+	}
+
+/* Div semantic container classes 
+div.article-footer {
+	text-align:center;
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	}*/
+
+/* Div semantic container IDs */
+div#article {
+	/* attribute? */
+	}
+	
+/* Image Default container attributes */
+img {
+	max-width: 100%;
+	/* min-width: 100%; */
+	height: auto;
+	display: block;
+	/* margin: auto; */
+	}
+	
+/* Image container IDs */
+img#blue-rasta {
+	max-width: 120px;
+	height: 120px;
+	float: right;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	}
+	
+img#walking-leaf {
+	max-width: 60px;
+	height: 60px;
+	float: right;
+	border: #999 1px solid;
+	}
+	
+/* Figure Default semantic container attributes
+Instructions: Set the margin to top-left zero and float the text around the image left-justified.
+Set the max-width to 100%. The image will now not scale-up larger than its given dimensions*/
+figure {
+	float: left;
+	display: block;
+	padding: 0;
+	border: gold 3px solid;
+	margin: 0;
+	text-align: right;
+	}
+
+/* Figure semantic container classes */
+figure.hero-star {
+	float: right;
+	text-align: right;
+	padding: 10px;
+	border: 0;
+	margin-top: 1em;
+	margin-right: 1em;
+	box-sizing: border-box;
+	}
+	
+figure.salutation {
+	text-align: left;
+	/* background-color: #ccc; */
+	background: transparent center center;
+	padding: 10px;
+	border: 0;
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	}
+	
+/* Figcaption Default semantic container attributes */
+figcaption {
+	margin: 0;
+	float: left;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	}
+	
+/* Figcaption semantic container classes */	
+figcaption.image-caption {
+	font-family: "Lucida Console", Monaco, monospace, serif;
+	font-size: 80%;
+	font-weight: 500;
+	color: #000;
+	padding: .5em .5em .5em 1em;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	background: hsl(0, 0%, 85%);
+	text-align: left;
+	}
+
+/* Paragraph Default container attributes */
+p {
+	text-align: left;
+	}
+
+/* 	Paragraph container classes
+		Note: Can also be used on <span> tags */
+
+.compiled-by {
+	text-align: right;
+	}
+
+/* Blockquote Default container attributes */
+blockquote {
+	color: #000;
+	text-align:center
+	}
+	
+/* Page Footer Default semantic container attributes */
+footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	border-radius: 7px;
+	}
+	
+/* Page Footer semantic container classes */
+div.footer {
+	text-align: center;
+	}
+
+.footer-txt {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-variant: normal;
+	color: #600;
+	font-size: .85em;
+	font-weight: 500;
+	font-style: normal;
+	display: block;
+	width: 100%;
+	/* padding: 1% 1% 1% 1%; */
+	/* margin: 1% 1% 1% 1%; */
+	/* border: 1px thin green; */
+	/* clear: both; */
+	/* float: left; */
+	}
+	
+p.center-this {
+	text-align: center;
+	text-transform: none;
+	text-decoration: none;
+	}
+	
+p.right-align-this {
+	text-align: right;
+	text-transform: none;
+	text-decoration: none;
+	}
+	
+span.underline-this {
+	text-decoration:underline;
+	}
+	
+/* Page Footer (.div) container IDs */
+	
+div#closure-section {
+		width: 100%;
+	}
+	
+/* Footer semantic container IDs */
+#copyright-section {
+	text-align:center;
+	}
+	
+#site-map-section {
+	text-align:center;
+	}
