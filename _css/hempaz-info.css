@@ -71,14 +71,26 @@ body {
 	margin: 0;
 	}
 	
-/* Anchor tags: <a default container attributes
-		Note: All anchor <a></a> tags with the word twitter in the URL get a twitter bird icon 25px to the left */
+/* Anchor tags: <a default container attributes */
+/* Note: All anchor <a></a> tags with the word twitter in the URL get a twitter bird icon above */
 a[href*="twitter"] {
 	padding-top: 5em;
 	background: url(../_images/_icon/twitter-bird-icon-50-x-50-px-96-dpi.png) center no-repeat;
 	font-size: 20px;
 	}
-
+/* Note: All anchor <a></a> tags with the word facebook in the URL get a facebook patch icon above */
+a[href*="facebook"] {
+	padding-top: 5em;
+	background: url(../_images/_icon/facebook-icon-50-x-50-px-96-dpi.png) center no-repeat;
+	font-size: 20px;
+	}
+/* Note: All anchor <a></a> tags with the word plus in the URL get a Google+ patch icon above */
+a[href*="plus"] {
+	padding-top: 5em;
+	background: url(../_images/_icon/google-plus-icon-50-x-50-px-96-dpi.png) center no-repeat;
+	font-size: 20px;
+	}
+	
 /* Page Headings: h1 Default container attributes */
 h1 {
 	color: #000;
@@ -107,21 +119,24 @@ h2 {
 	clip: rect(auto,auto,auto,auto);
 	}
 
-p.left-align-this {
-	text-align: left;
-	text-transform: none;
-	text-decoration: none;
-	}
-	
 /* Page Headings: h3 Default container attributes */
 h3 {
 	color: #000;
 	}
 
 /* h3 container classes */
+
+h3.align-left {
+		text-align: left;
+		/* text-decoration: underline; */
+		text-decoration: none;
+		margin: 0px 2px 0px 0px;
+	}
+	
 h3.align-right {
 		text-align: right;
-		text-decoration: underline;
+		/* text-decoration: underline; */
+		text-decoration: none;
 		margin: 0px 2px 0px 0px;
 	}
 
@@ -309,56 +324,57 @@ section {
 	
 /* Section semantic container IDs */
 #section {
-	/* some attribute */
+	width: 100%;
 	}
 	
 #section-two {
 	text-align:right;
+	width: 100%;
 	}
 	
 #section-three {
-	/* some attribute */
+	width: 100%;
 	}
 	
 #section-four {
-	/* some attribute */
+	width: 100%;
 	}
 
 #section-five {
-	/* some attribute */
+	width: 100%;
 	}
 	
 #section-six {
-		width: 100%;
+	width: 100%;
 	}
 	
 #section-seven {
-	/* some attribute */
+	width: 100%;
 	}
 	
 #section-eight {
-	/* some attribute */
+	width: 100%;
 	}
 	
 #section-nine {
-	/* some attribute */
+	width: 100%;
 	}
 	
 #section-ten {
-	/* some attribute */
+	width: 100%;
 	}
 	
 #section-eleven {
-	/* some attribute */
+	width: 100%;
 	}
 	
 #section-twelve {
-	/* some attribute */
+	width: 100%;
 	}
 	
 /* Section semantic container classes */
 .section {
-	/* some attribute */
+	width: 100%;
 	}
 
 /* Aside Default semantic container attributes */
@@ -547,6 +563,12 @@ div.footer {
 	/* border: 1px thin green; */
 	/* clear: both; */
 	/* float: left; */
+	}
+	
+p.left-align-this {
+	text-align: left;
+	text-transform: none;
+	text-decoration: none;
 	}
 	
 p.center-this {
