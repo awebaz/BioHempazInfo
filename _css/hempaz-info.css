@@ -74,8 +74,8 @@ body {
 /* Anchor tags: <a default container attributes
 		Note: All anchor <a></a> tags with the word twitter in the URL get a twitter bird icon 25px to the left */
 a[href*="twitter"] {
-	padding-top: 3.5em;
-	background: url(../_images/_icon/twitter-bird-icon-50-x-50-px-96-dpi.png) left no-repeat;
+	padding-top: 5em;
+	background: url(../_images/_icon/twitter-bird-icon-50-x-50-px-96-dpi.png) center no-repeat;
 	font-size: 20px;
 	}
 
