@@ -59,6 +59,7 @@ html {
 	background: url(../_images/Mt-Hood-Close-Up-CU-200700-34028080-light-061015-original.svg) no-repeat center center fixed;
 	background-size: cover; 
 	/* background-size: 100% 100%; */
+	background-origin:border-box;
 	}
 	
 /* Manage the Body Tag */
@@ -68,6 +69,14 @@ body {
 	line-height: 1.231;
 	color: #600;
 	margin: 0;
+	}
+	
+/* Anchor tags: <a default container attributes
+		Note: All anchor <a></a> tags with the word twitter in the URL get a twitter bird icon 25px to the left */
+a[href*="twitter"] {
+	padding-top: 3.5em;
+	background: url(../_images/_icon/twitter-bird-icon-50-x-50-px-96-dpi.png) left no-repeat;
+	font-size: 20px;
 	}
 
 /* Page Headings: h1 Default container attributes */
@@ -233,7 +242,7 @@ main {
     /* float: left; */
 }
 
-/* Nav Default semantic container attributes */
+/*  Default semantic container attributes */
 nav {
 	/* background: #ccc; */
 	border-radius: 7px;
@@ -248,7 +257,26 @@ nav {
 	display: block;
 	}
 	
-/* Nav semantic container classes 
+/* Nav semantic container IDs */
+#sitemap {
+	/* some attribute */
+	}
+
+#navigator {
+		text-align: right;
+		padding: 5px 5px 0px 0px;
+		line-height: 100%;
+	}
+	
+/* Nav semantic container 'Child Combinator(s)' allow for javascript-like specificity ...
+/* Note: The 'child combinator' symbol, or '>' (greater than) selects only the <ul> elements that are ...
+		1.) direct children of the <nav> elment. No other <ul> elements are affected. */
+nav > ul {
+	background: yellow;
+	border: 5px groove green;
+	}
+	
+/* Nav semantic container classes */
 .menu {
     width: 25%;
     float: right;
@@ -268,16 +296,8 @@ nav {
 }
 .menu li:hover {
     background-color: #0099cc;
-}*/
+}
 
-/* Nav semantic container IDs */
-
-ul#navigator {
-		text-align: right;
-		padding: 5px 5px 0px 0px;
-		line-height: 100%;
-	}
-	
 /* Section Default semantic container attributes */
 section {
 	clear: both;
@@ -543,6 +563,10 @@ p.right-align-this {
 	
 span.underline-this {
 	text-decoration:underline;
+	}
+	
+span.increase-font-size-to-20px {
+	font-size: 20px;
 	}
 	
 /* Page Footer (.div) container IDs */
