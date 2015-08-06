@@ -47,6 +47,7 @@
 	height: 100vh;
 	padding-left: 0%;
 	padding-right: 0%;
+	box-sizing: border-box;
 }
 
 /* Manage the Html Tag */
@@ -476,6 +477,7 @@ figure.hero-star {
 	margin-top: 1em;
 	margin-right: 1em;
 	box-sizing: border-box;
+	max-width: 100%;
 	}
 	
 figure.salutation {
@@ -500,7 +502,7 @@ figcaption {
 	}
 	
 /* Figcaption semantic container classes */	
-figcaption.image-caption {
+figcaption.image-caption-left {
 	font-family: "Lucida Console", Monaco, monospace, serif;
 	font-size: 80%;
 	font-weight: 500;
@@ -514,6 +516,22 @@ figcaption.image-caption {
 	border-bottom-color: #999;
 	background: hsl(0, 0%, 85%);
 	text-align: left;
+	}
+	
+figcaption.image-caption-right {
+	font-family: "Lucida Console", Monaco, monospace, serif;
+	font-size: 80%;
+	font-weight: 500;
+	color: #000;
+	padding: .5em .5em .5em 1em;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	background: hsl(0, 0%, 85%);
+	text-align: right;
 	}
 
 /* Paragraph Default container attributes */
