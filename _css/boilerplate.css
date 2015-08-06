@@ -60,7 +60,7 @@ object, embed, video {
    HTML5 display definitions
    ========================================================================== */
 
-article, aside, details, hgroup, nav {
+article, aside, details, nav {
 	display: block;
 	}
 
