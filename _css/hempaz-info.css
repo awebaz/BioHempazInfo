@@ -68,7 +68,7 @@ body {
 	font-family: sans-serif;
 	font-size: 13px;
 	line-height: 1.231;
-	color: #600;
+	color: #000;
 	margin: 0;
 	}
 	
@@ -99,6 +99,10 @@ h1 {
 
 /* Page Headings: h2 Default container attributes */
 h2 {
+	color: #000;
+	}
+	
+h2.trebuchet {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 24px;
 	font-style: normal;
@@ -106,7 +110,7 @@ h2 {
 	font-weight: 500;
 	font-variant: normal;
 	text-transform: none;
-	color: #000;
+	/* color: #000; */
 	text-decoration: none;
 	height: auto;
 	width: auto;
@@ -117,8 +121,7 @@ h2 {
 	z-index: 5;
 	top: 0%;
 	left: 0%;
-	clip: rect(auto,auto,auto,auto);
-	}
+	clip: rect(auto,auto,auto,auto);}
 
 /* Page Headings: h3 Default container attributes */
 h3 {
@@ -155,9 +158,12 @@ h5 {
 h6 {
 	color: #000;
 	}
-		
+	
+time {
+	color: #000;
+	}
+	
 /* Page Header Default semantic container attributes */
-
 header {
 	/* background: #ccc; */
 	border-radius: 7px;
@@ -194,6 +200,10 @@ header {
 	left: 0px;
 	top: 0px;
 	margin: 0px;
+	}
+	
+hgroup {
+	display: block;
 	}
 	
 /* Note: Adding the Default background (.svg) 
@@ -495,7 +505,7 @@ figure.salutation {
 /* Figcaption Default semantic container attributes */
 figcaption {
 	margin: 0;
-	float: left;
+	float: none;
 	max-width: 100%;
 	height: auto;
 	display: block;
@@ -506,6 +516,7 @@ figcaption.image-caption-left {
 	font-family: "Lucida Console", Monaco, monospace, serif;
 	font-size: 80%;
 	font-weight: 500;
+	width: 50%;
 	color: #000;
 	padding: .5em .5em .5em 1em;
 	border-right-width: 1px;
