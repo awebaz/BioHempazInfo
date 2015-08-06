@@ -6,5 +6,5 @@ Suggested changes from the Git Hub community are welcome.
 Fork a branch, push a branch, and we'll merge w master if acceptable.
 Your work, if accepted, will be noted as contributory to the website via comment where appropriate, as follows:
 #<!-- Comment here -->
-Thank you for visiting our repository of targeted page html and accompanying (.css).
+Thank you for visiting our Git Hub repository of targeted page html and accompanying (.css).
 Robert Hempaz, PhD Trichometry™
