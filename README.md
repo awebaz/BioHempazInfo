@@ -1,5 +1,5 @@
 #Live URL: http://bio.hempaz.info
-Bio-information Page for the Robert Hempaz, PhD Trichometry Labs LLC family of websites.
+Bio-Information Page for the Robert Hempaz, PhD Trichometry Labs LLC family of websites.
 Description of project:
 A responsive rendering of column based rows and boxes w a large (.svg) as background image.
 Suggested changes from the Git Hub community are welcome.
